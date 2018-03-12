@@ -14,6 +14,8 @@ If you are using 'Create-React-App' just put all the files from here into the 's
 # Credits
 The audio file 'Ringtone-for-alarm' was made by [ALEXANDER](http://www.orangefreesounds.com/ringtone-for-alarm/). It is released under the [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/) license.
 
+The font [Roboto](https://fonts.google.com/specimen/Roboto) and [Roboto-Mono](https://fonts.google.com/specimen/Roboto+Mono) are created by Christian Robertson and are released under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
 Many thanks to [Robin](https://github.com/rwieruch) for the support and the angel-like patience. ;)
 
 # Extension
