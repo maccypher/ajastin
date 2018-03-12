@@ -20,4 +20,5 @@ Many thanks to [Robin](https://github.com/rwieruch) for the support and the ange
 
 # Extension
 ![Desktop Menubar Extension](screenshot.jpg)
+
 As I want to use this small app as a menubar integration for my Mac, I put it all into an Electron app environment and used the [menubar](https://github.com/maxogden/menubar) extension to create a menubar desktop application with Electron. To document this here would go beyond the scope and would possibly distract from the basic goal. It was a little bit tricky to match all my needs, but I'm sure you will figure it out, if you wanna do something similar.
