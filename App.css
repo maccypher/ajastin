@@ -1,0 +1,168 @@
+@import url('./assets/fonts/roboto-mono.css');
+@import url('./assets/fonts/roboto.css');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+input, 
+button,
+body {
+  font-family: "robotothin", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  background-color: transparent;
+}
+
+.dropDown {
+  display: block;
+  width: 180px;
+  min-height: 220px;
+  margin: 0 auto;
+  padding: 15px 15px 5px 15px;
+  background-color: rgba(10, 10, 10, 0.9);
+  border: 1px solid black;
+  border-top: none;
+  text-align: left;
+}
+
+#wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 220px;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.time {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: #111;
+  border-radius: 3px;
+}
+
+.label {
+  flex-grow: 1;
+  font-size: 14px;
+  color: #fff;
+  text-align: left;
+}
+
+.currentTime {
+  flex-grow: 1;
+  letter-spacing: -3px;
+  color: steelblue;
+  text-shadow: 0 0 10px steelblue;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  font-family: 'roboto_monothin', monospace;
+}
+
+.ready {
+  background-color: #333;
+}
+
+.spacer {
+  flex: 1 100%;
+}
+
+.addTimer {
+  order: 999;
+  width: 180px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: none;
+  color: #aaa;
+  font-family: 'robotothin', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  text-align: center;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.addTimer:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+}
+
+.addTimer:focus {
+  outline: 0;
+}
+
+.quit {
+  position: absolute;
+  bottom: 0;
+  width: 212px;
+  height: 23px;
+  background-color: steelblue;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.quit:hover {
+  background-color: firebrick;
+}
+
+.quit:focus {
+  outline: 0;
+}
+
+.quitContent {
+  display: block;
+  width: 60%;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.quitButton {
+  background-color: #fff;
+  -webkit-mask-image: url('./assets/ajastin_quit.svg');
+  display: block;
+  width: 12px;
+  height: 12px;
+  padding-top: -2px;
+  margin: 5px 5px 0 0;
+  float: left;
+}
+
+.quit:hover .quitButton {
+  background-color: #fff;
+}
+
+.quitText {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  float: left;
+}
+
+.quit:hover .quitText {
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+

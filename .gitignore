@@ -1,3 +1,12 @@
+# Create-React-App Stuff
+build/
+node_modules/
+public/
+
+# Misc & Mac Stuff
+screenshot.jpg
+.DS_Store
+
 # Logs
 logs
 *.log
