@@ -1,6 +1,8 @@
 # Ajastin
 (f. finish = 'timer' or 'alarm clock')
 
+![Ajastin](assets/ajastin_speaker_big.png)
+
 A simple alarm clock, made with REACT.
 This is my first real REACT project I created in cooperation with [Robin Wieruch](https://github.com/rwieruch). All code is documented inline.
 
