@@ -4,7 +4,6 @@ node_modules/
 public/
 
 # Misc & Mac Stuff
-screenshot.jpg
 .DS_Store
 
 # Logs
