@@ -6,6 +6,10 @@
 A simple alarm clock, made with REACT.
 This is my first real REACT project I created in cooperation with [Robin Wieruch](https://github.com/rwieruch). All code is documented inline.
 
+This is meant to be a guideline or a little help for beginners. This little piece of software is not perfect and could be improved in so many ways, but it shows some basic things when you wanna start with REACT. I wanna share my experiences when I started with REACT. Nothing more, but nothing less.
+
+Fork it, share it, improved it, enjoy it. Feedback appreciated.
+
 # Requirements
 I used the [npm module uuid](https://www.npmjs.com/package/uuid) to generate unique IDs for every alarm clock.
 
@@ -24,3 +28,5 @@ Many thanks to [Robin](https://github.com/rwieruch) for the support and the ange
 ![Desktop Menubar Extension](screenshot.jpg)
 
 As I want to use this small app as a menubar integration for my Mac, I put it all into an Electron app environment and used the [menubar](https://github.com/maxogden/menubar) extension to create a menubar desktop application with Electron. To document this here would go beyond the scope and would possibly distract from the basic goal. It was a little bit tricky to match all my needs, but I'm sure you will figure it out, if you wanna do something similar.
+
+I put an "ready-to-use" example in the **app/** folder.
