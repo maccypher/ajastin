@@ -105,6 +105,11 @@ class App extends Component {
     });
   };
 
+  // NOTICE: this function is absolutely useless at this point and is just a
+  // placeholder when you want to put this stuff in an electron app. After
+  // bundling all together you have to search for this function in:
+  // "/static/js/main.<bundle-ID>.js" and put the text from the var in it.
+  // Otherwise the "Quit Ajastin" button is useless.
   handleQuitApp = () => {
     let bm = 'require("remote").app.quit()';
   };
