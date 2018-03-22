@@ -11,11 +11,28 @@ This is meant to be a guideline or a little help for beginners. This little piec
 Fork it, share it, improved it, enjoy it. Feedback appreciated.
 
 # Requirements
-I used the [npm module uuid](https://www.npmjs.com/package/uuid) to generate unique IDs for every alarm clock.
+[Nodejs](https://nodejs.org) is essentially required.
+
+[NPM](https://www.npmjs.com/) is very helpfull but NOT required.
+
+I used the [npm module uuid](https://www.npmjs.com/package/uuid) to generate unique IDs for every alarm clock:
+```
+npm install uuid
+```
+
+The npm module [styled-components](https://www.npmjs.com/package/styled-components) is required:
+```
+npm install styled-components
+```
 
 # Usage
 Because of I started this project by using ['Create-React-App'](https://github.com/facebook/create-react-app) you can do this too.
-If you are using 'Create-React-App' just put all the files from here into the 'src/' folder.
+If you are using 'Create-React-App' just put all the files from here into 'src/' in the "Creat-react-App" folder structure.
+
+Then you can start this project as usual with:
+```
+npm start
+```
 
 # Credits
 The audio file 'Ringtone-for-alarm' was made by [ALEXANDER](http://www.orangefreesounds.com/ringtone-for-alarm/). It is released under the [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/) license.
