@@ -128,9 +128,9 @@ class App extends Component {
 
     // [OPTIONAL] Define a variable to give the finished AlarmClock
     // a different CSS style.
-    let alarmClockFinishedStyle = "";
+    let alarmClockFinishedStyle = "dropDown";
     if (this.state.finished) {
-      alarmClockFinishedStyle = "ready";
+      alarmClockFinishedStyle = "dropDown ready";
     }
 
     // Put the state array objects in a new object to itterate
